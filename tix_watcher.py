@@ -13,7 +13,7 @@ EMAIL_APP_PASSWORD = os.getenv("EMAIL_APP_PASSWORD")
 WATCH_LIST = {
     "TWICE 3/20": "https://tixcraft.com/ticket/area/26_twice/21471",
     "TWICE 3/21": "https://tixcraft.com/ticket/area/26_twice/21441",
-    "TWICE 3/22": "https://tixcraft.com/ticket/area/26_twice/21455",
+    "CxM 4/26": "https://tixcraft.com/ticket/area/26_cxm/21672",
 }
 # ========================================================================
 
@@ -99,3 +99,4 @@ async def on_ready():
         await asyncio.sleep(CHECK_INTERVAL)
 
 bot.run(TOKEN)
+
